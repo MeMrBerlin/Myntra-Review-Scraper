@@ -98,15 +98,15 @@ The application generates comprehensive analytics including:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/myntra-review-scrapper.git
+   git clone https://github.com/MeMrBerlin/Myntra-Review-Scraper.git
    cd myntra-review-scrapper
    ```
 
 2. **Create and activate virtual environment**
 
    ```bash
-   conda create -p ./env python=3.10 -y
-   conda activate ./env
+   python -m venv myntra_env
+   myntra_env\Scripts\activate
    ```
 
 3. **Install dependencies**
