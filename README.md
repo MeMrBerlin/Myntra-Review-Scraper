@@ -47,6 +47,14 @@ A comprehensive web scraping and data analysis application that extracts, stores
 
 ![Analytics Dashboard](screenshots/analytics.png) _Interactive charts showing product ratings and price comparisons_
 
+![Analysis Report 1](screenshots/generateanalysis-1.png) _Detailed rating distribution and sentiment analysis across products_
+
+![Analysis Report 2](screenshots/generateanalysis-2.png) _Price comparison and review volume visualization between products_
+
+![Analysis Report 3](screenshots/generateanalysis-3.png) _Customer review trends and temporal analysis patterns_
+
+![Analysis Report 4](screenshots/generateanalysis-4.png) _Comprehensive product performance dashboard with key metrics_
+
 ### Review Data
 
 ![Review Results](screenshots/reviews.png) _Detailed customer reviews with ratings and sentiment analysis_

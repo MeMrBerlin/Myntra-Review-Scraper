@@ -3,6 +3,13 @@ import streamlit as st
 from src.cloud_io import MongoIO
 from src.constants import SESSION_PRODUCT_KEY
 from src.scrapper.scrape import ScrapeReviews
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # This loads variables from .env into the environment
+
+mongo_db_url = os.getenv("MONGO_DB_URL")
+print("MongoDB URL:", mongo_db_url)  # For debugging, remove later
 
 st.set_page_config(
     "myntra-review-scrapper"
